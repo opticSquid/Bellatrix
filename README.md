@@ -26,6 +26,7 @@ We follow some basic rules for the security of the app.
 1. Clone the *Bellatrix* repository.
 2. Make sure to install the latest **LTS version of Node JS**
 3. After navigating to the project root directory, run the following command:
+   
     ```sh
     npm install
     ```
