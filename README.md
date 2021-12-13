@@ -17,16 +17,18 @@ We follow some basic rules for the security of the app.
 
 - Everytime the `access_token` expires, the user can request a new `access_token` by sending a **GET** request to `\token` route. The `refresh_token` should be provided in the `Authorization` header of the request
 
-```sh
-While keeping an eye on the security we also focus on performance, scalability and reusablity of the code by breaking the code to small middlewares and asynchronizing the processes as much as possible. We parallelize the promises and network requests when ever possible to make the application more performant scalable and reusable.
-```
+
+> While keeping an eye on the security we also focus on performance, scalability and reusablity of the code by breaking the code to small middlewares and asynchronizing the processes as much as possible. We parallelize the promises and network requests when ever possible to make the application more performant scalable and reusable.
+
 
 ## Steps to get started
 
 1. Clone the *Bellatrix* repository.
 2. Make sure to install the latest **LTS version of Node JS**
 3. After navigating to the project root directory, run the following command:
-    >>>> npm install
+    ```sh
+    npm install
+    ```
 4. Create a `.env` file in the root of the project. This file will contain the environment variables required for the application to run.
  The file should contain the following fields:
 
@@ -35,7 +37,11 @@ While keeping an eye on the security we also focus on performance, scalability a
  - `JWT_REF_SECRET` - *Secret key for the JWT `refresh_token`*
   
  5. Run the following command to start the application in production mode:
-    >>>> npm start
+    ```sh
+    npm start
+    ```
    
 6. To start the application in development mode, run the following command:
-    >>>> npm run dev
+    ```sh
+    npm run dev
+    ```
