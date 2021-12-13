@@ -29,6 +29,7 @@ We follow some basic rules for the security of the app.
     ```sh
     npm install
     ```
+    
 4. Create a `.env` file in the root of the project. This file will contain the environment variables required for the application to run.
  The file should contain the following fields:
 
