@@ -1,3 +1,4 @@
+![Bellatrix logo](Public/bellatrix%20solid.png)
 # BELLATRIX
 
 ## A Express JS project to provide you with a starter application framework for your Node JS application with built in routes and functionalities for the authentication and authorization needs of your application. We mainly focus on the **security** of the authentication and authorization routes
