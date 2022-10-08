@@ -4,11 +4,18 @@
 
 # BELLATRIX
 
-## A Express JS project to provide you with a starter application framework for your Node JS application with built in routes and functionalities for the authentication and authorization needs of your application. We mainly focus on the **security** of the authentication and authorization routes
+A Node JS project to provide you with a starter code for your server side application with built in routes and functionalities for the authentication and authorization needs of your application. We mainly focus on the **security** of the authentication and authorization routes
 
-### We keep implementing all the latest security measures and best practices that are required for the application's data to remain secure and make sure data and access is available to only the ones intended to. We do the boring security stuff so that you can enjoy your time building other exciting functionalities with out worrying about the security of your application
+We keep implementing all the latest security measures and best practices that are required for the application's data to remain secure and make sure data and access is available to only the ones intended to. We do the boring security stuff so that you can enjoy your time building other exciting functionalities with out worrying about the security of your application
 
-We follow some basic rules for the security of the app.
+# We have 2 versions for this app
+
+1. The old version which is built using express.js. As express js is a minimalist framework a lot of structure and security could not be provided to the app. So, it may be susceptible to some attacks
+2. The new version. This is being built using `nest.js`. Which is a very stable opinionated framework that gives a lot of structure to the code and follows OOP and MVC model. By default it brings a lot of security to the table and is much more organized which helps the code suitable for implementation in large scale applications.
+
+**Below are the steps to build the old version. The documentation for the new version is in the [new-version](./new-version/) folder.**
+
+> We follow some basic rules for the security of the app.
 
 - We use the [JWT](https://jwt.io/) for the authentication and authorization of the application
 
