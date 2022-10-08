@@ -1,7 +1,7 @@
 {
-  "name": "appytree-server",
+  "name": "bellatrix",
   "version": "1.0.0",
-  "description": "Backend Server of Appytree",
+  "description": "A secure implementation of a node js backend",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/soumalyatheking22012001/appytree.git"
+    "url": "https://github.com/GDSC-TMSL/Bellatrix"
   },
   "author": "Soumalya Bhattacharya",
-  "license": "ISC",
+  "license": "GPL 3.0",
   "bugs": {
-    "url": "https://github.com/soumalyatheking22012001/appytree/issues"
+    "url": "https://github.com/GDSC-TMSL/Bellatrix/issues"
   },
-  "homepage": "https://github.com/soumalyatheking22012001/appytree#readme",
+  "homepage": "https://github.com/GDSC-TMSL/Bellatrix#readme",
   "dependencies": {
     "axios": "^0.24.0",
     "bcrypt": "^5.0.1",
