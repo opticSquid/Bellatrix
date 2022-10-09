@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/Public/bellatrix%20solid.png" alt="Bellatrix Logo">
+   <img src="./old-version/Public/bellatrix%20solid.png" alt="Bellatrix Logo">
 </p>
 
 # BELLATRIX
