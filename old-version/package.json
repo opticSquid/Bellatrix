@@ -1,0 +1,36 @@
+{
+  "name": "bellatrix",
+  "version": "1.0.0",
+  "description": "A secure implementation of a node js backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GDSC-TMSL/Bellatrix"
+  },
+  "author": "Soumalya Bhattacharya",
+  "license": "GPL 3.0",
+  "bugs": {
+    "url": "https://github.com/GDSC-TMSL/Bellatrix/issues"
+  },
+  "homepage": "https://github.com/GDSC-TMSL/Bellatrix#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
